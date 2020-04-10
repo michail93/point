@@ -7,13 +7,6 @@ from django.core.exceptions import ValidationError
 from django.db import transaction
 
 
-def validate_language(value):
-    eng = bool(re.findall(r'[A-za-z]', value))
-    rus = bool(re.findall(r'[А-яа-я]', value))
-
-    return eng != rus
-
-
 def validate_full_name(value):
     regex = re.compile('[=,.+\[\]@_!#$%^&*()<>?/\|}{~:]')
     regex2 = re.compile('[0-9]')

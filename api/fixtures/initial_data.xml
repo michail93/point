@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="api.abonent" pk="1">
+        <field name="ab_uuid" type="UUIDField">26c940a1-7228-4ea2-a3bc-e6460b172040</field>
+        <field name="full_name" type="CharField">Петров Иван Сергеевич</field>
+        <field name="balance" type="DecimalField">1700.00</field>
+        <field name="hold" type="DecimalField">300.00</field>
+        <field name="status" type="BooleanField">True</field>
+    </object>
+    <object model="api.abonent" pk="3">
+        <field name="ab_uuid" type="UUIDField">7badc8f8-65bc-449a-8cde-855234ac63e1</field>
+        <field name="full_name" type="CharField">Kazitsky Jason</field>
+        <field name="balance" type="DecimalField">200.00</field>
+        <field name="hold" type="DecimalField">200.00</field>
+        <field name="status" type="BooleanField">True</field>
+    </object>
+    <object model="api.abonent" pk="4">
+        <field name="ab_uuid" type="UUIDField">5597cc3d-c948-48a0-b711-393edf20d9c0</field>
+        <field name="full_name" type="CharField">Пархоменко Антон Александрович</field>
+        <field name="balance" type="DecimalField">10.00</field>
+        <field name="hold" type="DecimalField">300.00</field>
+        <field name="status" type="BooleanField">True</field>
+    </object>
+    <object model="api.abonent" pk="5">
+        <field name="ab_uuid" type="UUIDField">867f0924-a917-4711-939b-90b179a96392</field>
+        <field name="full_name" type="CharField">Петечкин Петр Измаилович</field>
+        <field name="balance" type="DecimalField">1000000.00</field>
+        <field name="hold" type="DecimalField">1.00</field>
+        <field name="status" type="BooleanField">False</field>
+    </object>
+</django-objects>

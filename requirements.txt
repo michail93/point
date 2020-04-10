@@ -1,0 +1,9 @@
+Django==2.2.7
+djangorestframework==3.11.0
+pytz==2019.3
+psycopg2
+psycopg2-binary==2.8.4
+sqlparse==0.3.1
+redis
+celery
+gunicorn==19.9.0

@@ -1,7 +1,7 @@
 ### Разворачивание и запуск приложения
 * из директории в которой раходится manage.py запустите команду
 ```
-./star_app.sh
+bash start_app.sh
 ```
 
 ### Обращения к api
@@ -11,7 +11,7 @@
 
 #### Пополнение баланса
 * Метод POST на url /api/add/ с json вида: 
-```json
+```
 {
 	"uuid": "<uuid>",
 	"amount": <int/float>
@@ -23,7 +23,7 @@
 
 #### Уменьшение баланса
 * Метод POST на url /api/substract/ с json вида: 
-```json
+```
 {
 	"uuid": "<uuid>",
 	"amount": <int/float>
@@ -35,7 +35,7 @@
 
 #### Статус-остаток по счету
 * Метод POST на url /api/status/ с json вида:
-```json
+```
 {
 	"uuid": "<uuid>"
 }
